@@ -1,6 +1,6 @@
 package org.example;
 
-public class TypeCasting {
+public class Topic2TypeCasting {
     public static void main(String[] args) {
         /*
 Type casting is when you assign a value of one primitive data type to another type.

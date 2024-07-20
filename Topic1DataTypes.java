@@ -1,6 +1,6 @@
 package org.example;
 
-public class DataTypes {
+public class Topic1DataTypes {
     public static void main(String[] args) {
 //There are two data types of categories in Java: Primitive and Non-Primitive.
 //-->Primitive data types specify the size and type of variable values.
