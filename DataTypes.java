@@ -23,10 +23,45 @@ public class DataTypes {
 //4. long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 //        long is a 64-bit signed two’s complement integer that stores values ranging from -9223372036854775808(-2^63) to 9223372036854775807(2^63 -1). It is used when we need a range of values more than those provided by int.
 //        Its default value is 0L. This data type ends with ‘L’ or ‘l’.
-        long var= 45455845646545l;
-//        System.out.println(var);
+//        long var= 45455845646545l;
+////        System.out.println(var);
+//
+//        char []chars=new char[5];
+//        System.out.println(chars[0]);
+//
+//        System.out.println(Integer.MAX_VALUE);
+        //The precision of a floating point value indicates how many digits the value can have after the
+        // decimal point. The precision of float is only six or seven decimal digits, while double variables
+        // have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
 
-        char []chars=new char[5];
-        System.out.println(chars[0]);
+//        float e= 12.4F;
+//        double f=22.55D;
+//        double x=12e5 + .17d; //e represents power of 10
+//        double y =12E5D; //E and e both are same
+//        System.out.println(y);
+
+        char a='A';
+        char b='b';
+        char c=65;
+        char d=97;
+        System.out.println(c); //op A which is ascii value 65
+        System.out.println(d);//op a which is ascii value 97
+        System.out.println(c+3); //op is 68 as When you add 3 to c, the char is implicitly converted to its
+        // integer value (65), and then the addition is performed. So, 65 + 3 = 68.
+        System.out.println(a+3); //op is still 68 as first convert to integer and then add 3
+        System.out.println((char)a+3); //op 68 as only a is casted to char
+        System.out.println((char) (a+3));// op D as we casted after calulation
+
+        /*
+    Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+
+Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+A primitive type has always a value, while non-primitive types can be null.
+A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+         */
+
     }
 }
