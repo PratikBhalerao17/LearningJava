@@ -11,7 +11,7 @@ public class Topic1DataTypes {
 */
 //        byte a= -128; //range 2^8 = 256 so range is -2^7 to 2^7-1
 //        byte b[]=new byte[5];
-//        System.out.println(b[0]);
+//        System.out.println(b[0]); //returns 0 as default value of byte is 0
 /*
 2. short :	2 bytes	Stores whole numbers from -32,768 to 32,767
  */
