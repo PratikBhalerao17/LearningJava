@@ -21,13 +21,14 @@ public class Topic1DataTypes {
 //        int a=1555555574;
 //        System.out.println(a);
 //4. long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-//        long is a 64-bit signed two’s complement integer that stores values ranging from -9223372036854775808(-2^63) to 9223372036854775807(2^63 -1). It is used when we need a range of values more than those provided by int.
+//        long is a 64-bit signed two’s complement integer that stores values ranging from -9223372036854775808(-2^63) to 9223372036854775807(2^63 -1).
+        // It is used when we need a range of values more than those provided by int.
 //        Its default value is 0L. This data type ends with ‘L’ or ‘l’.
 //        long var= 45455845646545l;
 ////        System.out.println(var);
 //
 //        char []chars=new char[5];
-//        System.out.println(chars[0]);
+//        System.out.println(chars[0]); //default is null or '/u0001'
 //
 //        System.out.println(Integer.MAX_VALUE);
         //The precision of a floating point value indicates how many digits the value can have after the
