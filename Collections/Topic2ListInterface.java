@@ -25,7 +25,7 @@ List interface is the child interface of Collection interface. It inhibits a lis
      different data types. The ArrayList class maintains the insertion order and is non-synchronized.
      The elements stored in the ArrayList class can be randomly accessed.
          */
-        List<String> names=new ArrayList<>();
+//        List<String> names=new ArrayList<>();
 //        names.add("Pratik"); // add to the end of the list
 //        names.add("Rakesh");
 //        names.add("Ramesh");
@@ -123,6 +123,19 @@ List interface is the child interface of Collection interface. It inhibits a lis
 //        stack1.push(5);
 //        System.out.println(stack1.peek()); // prints 5
 //        System.out.println(stack1); //[3, 5] as we can see both elements added
+
+        //We can also iterate over the stack elements
+//        Stack<Integer> st=new Stack<>();
+//        st.push(3);
+//        st.push(5);
+//        st.push(7);
+//
+//        System.out.println(st);
+//
+//        for (Integer p:st){
+//            System.out.println(p);
+//        }
+
 
 
 
