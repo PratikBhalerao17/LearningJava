@@ -16,9 +16,9 @@ public class Topic4StringsBasics {
 //        System.out.println(s.hashCode()); //-1280184793
         //Here address is changing it means new memory address is assigned to string when we modified string.
         /*
-2. String Pool: Java maintains a special memory region called the "string pool" for storing literal strings.
-When a new string is created using string literals, Java checks the pool first. If the string already exists,
-the same reference is returned instead of creating a new object.
+2. String Pool: Java maintains a special memory region called the "string pool" inside heap for storing literal
+strings. When a new string is created using string literals, Java checks the pool first. If the string already
+exists,the same reference is returned instead of creating a new object.
          */
 //        String p="pratik";
 ////        String s="pratik";

@@ -21,6 +21,9 @@ double -> float -> long -> int -> char -> short -> byte
 //Narrowing casting must be done manually by placing the type in parentheses () in front of the value:
 //         */
 //        double myDouble = 9.78d;
+//          double val=78;
+//          int a=val; //error
+//        java: incompatible types: possible lossy conversion from double to int
 //        int myInt = (int) myDouble; // Manual casting: double to int
 //        System.out.println(myInt); //op 9
 //
@@ -44,7 +47,8 @@ double -> float -> long -> int -> char -> short -> byte
 //        System.out.println(b); //charcter at that decimal is 溛
         /*
         When you cast an int to a char in Java, only the lower 16 bits of the integer value are used to
-        determine the char value. This is because a char in Java is a 16-bit unsigned Unicode character.
+        determine the char value as char limit is 2bytes. This is because a char in Java is a 16-bit unsigned
+         Unicode character. As char is unsigned the limit is from 0 to 65,535(2^16-1)
         So after the extraction of 16 bits converted to decimal and then print the unicode belongs to that.
          */
     }

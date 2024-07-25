@@ -31,7 +31,7 @@ It can take any primitive type or an object and returns its string representatio
         // The Unicode value for 'p' is 112. that is why it is returning 224
 //        System.out.println(""+a+'p'); // this will print pp as first "" makes the string
         /*
-2. Convert String to primitive datatypes -- > Use parseInt of wrapper class.
+2. Convert String to primitive datatypes -- > Use parseXXX of wrapper class.
 Java offers wrapper classes for all primitive data types, and these classes provide methods to parse strings
 into respective primitive types:
          */
@@ -42,6 +42,7 @@ into respective primitive types:
 //        System.out.println(Boolean.parseBoolean(str)); //return false by default
         // method returns true if the string is "true", and false for any other value, including the string "123".
         /*
+       parseCharacter method is not available. We can convert string to char using charArray ot toString
 3. Objects to String --> toString() method
 Using toString() Method: Most objects in Java inherit a toString() method from the Object class,
 which can be overridden to provide a meaningful string representation.

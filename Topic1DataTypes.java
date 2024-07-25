@@ -35,12 +35,16 @@ public class Topic1DataTypes {
         // decimal point. The precision of float is only six or seven decimal digits, while double variables
         // have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
 
+        //long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        //float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+        //double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
 //        float e= 12.4F;
 //        double f=22.55D;
 //        double x=12e5 + .17d; //e represents power of 10
 //        double y =12E5D; //E and e both are same
 //        System.out.println(y);
 
+        //char	2 bytes	Stores a single character/letter or ASCII values
         char a='A';
         char b='b';
         char c=65;
@@ -58,7 +62,8 @@ public class Topic1DataTypes {
 
 The main difference between primitive and non-primitive data types are:
 
-Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer
+and is not defined by Java (except for String).
 Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
 A primitive type has always a value, while non-primitive types can be null.
 A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
