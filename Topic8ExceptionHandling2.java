@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class Topic8_1CustomException {
+public class Topic8ExceptionHandling2 {
     public static void main(String[] args) throws MyException{
 
 //        Scanner sc=new Scanner(System.in);
