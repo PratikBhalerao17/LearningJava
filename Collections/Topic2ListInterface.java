@@ -79,7 +79,8 @@ List interface is the child interface of Collection interface. It inhibits a lis
     ArrayList: It is not synchronized. If multiple threads access an ArrayList concurrently, and at least one
     of the threads modifies the list structurally, it must be synchronized externally.
 
-    Vector contains some methods that are not found in ArrayList like addElement which is similar to add but synchronized
+    Vector contains some methods that are not found in ArrayList like addElement which is similar to add but
+    synchronized
 
          */
 //        //The () after ArrayList indicates the invocation of the default constructor, which creates a new,
