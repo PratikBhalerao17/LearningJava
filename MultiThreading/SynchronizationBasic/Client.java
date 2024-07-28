@@ -17,6 +17,6 @@ public class Client {
         t2.join();
 
         System.out.println(count.val); // here expected output is 0 but we are getting diff op each time
-        //Due to synchronization issue
+        //Due to synchronization issue in this code
     }
 }
