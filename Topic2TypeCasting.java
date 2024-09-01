@@ -39,7 +39,7 @@ double -> float -> long -> int -> char -> short -> byte
 ////        bs ch ithe lfd
 //        int a=65;
 ////        char b=a; //error as int is higher
-//        char b=(char)a; //will print char of ascii value 65 as a is 65
+//        char b=(char)a; //will print char of ascii value 65 as A is 65
 //        System.out.println(b); // ans is A
 
 //        int a= 9465499;

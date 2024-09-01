@@ -42,15 +42,15 @@ into respective primitive types:
 //        System.out.println(Boolean.parseBoolean(str)); //return false by default
         // method returns true if the string is "true", and false for any other value, including the string "123".
         /*
-       parseCharacter method is not available. We can convert string to char using charArray ot toString
+       parseCharacter method is not available. We can convert string to char using charArray or toString
 3. Objects to String --> toString() method
 Using toString() Method: Most objects in Java inherit a toString() method from the Object class,
 which can be overridden to provide a meaningful string representation.
          */
 //
-//        Topic6StringsUseWithDataTypes obj=new Topic6StringsUseWithDataTypes();
-//        System.out.println(obj); //calls default obj.toString method and prints org.example.Topic6StringsUseWithDataTypes@4dd8dc3
-//        System.out.println(obj.toString()); //prints org.example.Topic6StringsUseWithDataTypes@4dd8dc3
+        Topic6StringsUseWithDataTypes obj=new Topic6StringsUseWithDataTypes();
+        System.out.println(obj); //calls default obj.toString method and prints org.example.Topic6StringsUseWithDataTypes@4dd8dc3
+        System.out.println(obj.toString()); //prints org.example.Topic6StringsUseWithDataTypes@4dd8dc3
         //returns the string representation of any object along with memory address.
         //After we override toString method we can print anything we want with object
 
