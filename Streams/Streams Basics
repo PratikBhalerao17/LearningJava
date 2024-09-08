@@ -1,0 +1,23 @@
+A Stream in Java is an abstraction that allows you to process sequences of elements in a collection in a functional way.
+Streams don't store data; they compute data on demand and can be run in parallel to leverage multicore architectures.
+
+1. Intermediate Operations:
+These operations transform a stream into another stream. They are lazy, meaning they don't perform any processing until a
+terminal operation is invoked. Common intermediate operations include:
+
+filter(Predicate): Returns a stream with elements that match the given predicate.
+map(Function): Transforms the elements of the stream by applying a function to each element.
+sorted(): Returns a stream with the elements sorted based on their natural order or a provided comparator.
+2. Terminal Operations
+These operations produce a result or side-effect and close the stream. After a terminal operation is performed,
+the stream can no longer be used. Common terminal operations include:
+
+forEach(Consumer): Performs an action for each element of the stream.
+collect(Collector): Transforms the elements of the stream into a different form, such as a list or a map.
+reduce(BinaryOperator): Combines the elements of the stream to produce a single summary result.
+
+
+-->Streams are designed to work without modifying the underlying data structure.
+Each operation on a Stream produces a new Stream that is distinct from the source, which aligns with functional
+programming principles where data structures are immutable. This behavior reduces the risk of bugs associated with
+mutable data.
